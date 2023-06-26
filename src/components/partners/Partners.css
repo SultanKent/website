@@ -1,0 +1,61 @@
+.Partners {
+    padding: 0px 60px 0px;
+    background: url(../../assets/moon.png) no-repeat;
+    height: 300px;
+    overflow: hidden;
+}
+
+.Partners>p {
+    width: 161px;
+    height: 32px;
+    border-radius: 48px;
+    border: 1px solid var(--white-20, rgba(255, 255, 255, 0.20));
+    padding: 5px 25px;
+    margin-bottom: 40px;
+    white-space: nowrap;
+}
+
+.Partners_main {
+    display: flex;
+    gap: 120px;
+}
+
+.partner {
+    width: 200px;
+    height: 120px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Partners {
+        padding: 0px 40px;
+        width: 100%;
+        background-size: 890px;
+        background-position: center;
+    }
+    .Partners_main {
+        grid-template-columns: repeat(3, 2fr);
+        display: grid;
+        gap: 0px;
+    }
+    .partner {
+        width: 218px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Partners {
+        margin-bottom: 40px;
+        padding: 0px 16px;
+        background-size: 780px;
+        background-position: center;
+    }
+    .Partners_main {
+        grid-template-columns: repeat(2, 3fr);
+        display: grid;
+        gap: 16px;
+    }
+    .partner {
+        width: 160px;
+        height: 88px;
+    }
+}

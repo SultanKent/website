@@ -1,0 +1,142 @@
+.Games {
+    background: linear-gradient(20deg, #14063D 40.67%, #800BF5 140.33%);
+    padding: 0px 76px 0px;
+    overflow: hidden;
+}
+
+.Games_main {
+    display: flex;
+    gap: 177px;
+    margin-bottom: 64px;
+}
+
+.Games_main>p {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 48px;
+    padding: 5px 18px 7px;
+    white-space: nowrap;
+    width: 167px;
+    height: 32px;
+}
+
+.Games_main2>h1 {
+    width: 604px;
+    font-size: 40px;
+}
+
+.Games_main2 {
+    width: 1208px;
+    margin-bottom: 30px;
+}
+
+.slider_text {
+    position: absolute;
+    z-index: 4;
+    left: 100px;
+    top: 361px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.slider_text>h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.slider_text>p {
+    width: 272px;
+    height: 57px;
+}
+
+.slider-image {
+    margin-bottom: 48px;
+    width: 1208px;
+    height: 532px;
+}  
+
+.swiper-scrollbar {
+    background: gray!important;
+}
+.swiper-scrollbar-drag {
+    background-color: darkgray!important;
+}
+
+.Games_main3 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.Games_titles {
+    display: flex;
+    gap: 16px;
+}
+
+.Games_titles>div:nth-child(1) {
+    width: 215px;
+}
+
+.Games_titles>div>h3 {
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Games {
+        width: 100%;
+        padding: 0px 40px 0px;
+    }
+    .Games_main {
+        flex-direction: column;
+        gap: 56px;
+    }
+    .Games_main2 {
+        width: 688px;
+    }
+    .slider-image {
+        width: 688px;
+        height: 400px;
+    }
+    .slider_text {
+        top: 243px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Games {
+        padding: 0px 16px;
+    }
+    .Games_main {
+        flex-direction: column;
+        gap: 56px;
+    }
+    .Games_main>h1 {
+        font-size: 24px;
+        width: 328px;
+    }
+    .Games_main2 {
+        width: 326px;
+        height: 339px;
+    }
+    .Games_main2 .swiper, swiper-container {
+        overflow: unset;
+    }
+    .slider-image {
+        width: 326px;
+        height: 200px;
+    }
+    .slider_text {
+        top: 223px;
+        left: 0px;
+    }
+    .Games_main2 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+        top: 440px;
+    }
+    .Games_titles {
+        align-items: center;
+    }
+    .Games_titles>div:nth-child(2)>img {
+        width: 71px;
+        height: 71px;
+    }
+}

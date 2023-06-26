@@ -1,0 +1,28 @@
+.Section {
+    background: #14063D;
+    padding: 96px 60px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Section {
+        padding: 80px 40px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .Section>img {
+        width: 688px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Section {
+        padding: 56px 0px;
+        width: 100%;
+    }
+    .Section>img {
+        width: 360px;
+        height: 260px;
+    }
+}

@@ -1,0 +1,65 @@
+.Catalog {
+    padding: 162px 60px;
+    overflow: hidden;
+}
+
+.Catalogs_main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Catalog_title {
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.Arrows {
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+}
+
+.Catalog_imgs {
+    width: 1400px;
+}
+
+.catalog_imgs {
+    display: flex;
+    gap: 24px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Catalog {
+        width: 100%;
+        padding: 96px 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px){
+    .Catalog {
+        padding: 96px 16px;
+    }
+    .Catalog_title>h2 {
+        font-size: 24px;
+    }
+    .Arrows {
+        display: none;
+    }
+    .Catalogs_main {
+        width: 260px;
+        gap: 56px;
+    }
+    .Catalogs_main .swiper, swiper-container {
+        overflow: unset;
+    }
+    .Catalogs_main .swiper-slide>img {
+        width: 244px;
+        height: 140px;
+    }
+}

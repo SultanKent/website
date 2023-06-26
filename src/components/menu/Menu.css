@@ -1,0 +1,31 @@
+.Menu {
+    width: 100%;
+    height: 82px;
+}
+
+.Menu_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Menu_main>ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menu-btn {
+    width: 177px;
+    background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
+    border-radius: 56px;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Menu_main {
+        gap: 100px;
+    }
+    .Menu_main>ul {
+        display: none;
+    }
+}

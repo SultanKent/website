@@ -1,0 +1,109 @@
+.Possibilities {
+    padding: 63px 75px;
+    background: linear-gradient(-100deg, #14063D 68.67%, #49CBF4 150%);
+    overflow: hidden;
+}
+
+.Possibilities_main2 {
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.Possibilities1>p:nth-child(1) {
+    border-radius: 48px;
+    border: 1px solid var(--white-20, rgba(255, 255, 255, 0.20));
+    padding: 5px 32px;
+    width: 247px;
+    height: 32px;
+    margin-bottom: 67px;
+}
+
+.Possibilities1>h1 {
+    color: var(--white-20, rgba(255, 255, 255, 0.20));
+    font-size: 120px;
+    height: 120px;
+    margin-bottom: 96px;
+}
+
+.Possibilities_words {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title_words {
+    color: #49CBF4;
+}
+
+.Possibilities_words>button {
+    width: 177px;
+    height: 56px;
+    border-radius: 56px;
+    background: var(--gradient, linear-gradient(90deg, #800BF5 0%, #25C6F9 100%));
+}
+
+.Possibilities2 {
+    display: flex;
+}
+
+.Possibilities2>img:nth-child(1) {
+    position: relative;
+    height: 232px;
+    left: 40px;
+    top: 30px;
+}
+
+.icon1 {
+    z-index: 2;
+}
+
+.icon2 {
+    z-index: -1;
+    top: 0px!important;
+    left: 100px!important;
+}
+
+.Possibilities .swiper-wrapper {
+    display: inherit;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Possibilities {
+        padding: 121px 40px;
+        width: 100%;
+        display: flex;
+    }
+    .Possibilities_main2 {
+        flex-direction: column;
+    }
+    .Possibilities2>img:nth-child(1) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Possibilities {
+        padding: 71px 16px;
+        display: flex;
+    }
+    .Possibilities_main2 {
+        flex-direction: column;
+    }
+    .Possibilities2>img:nth-child(1) {
+        display: none;
+    }
+    .Possibilities1>h1 {
+        font-size: 80px;
+        margin-bottom: 0px;
+    }
+    .Possibilities_words>h2 {
+        font-size: 24px;
+        width: 328px;
+        height: 56px;
+    }
+    .Possibilities2>img:nth-child(2) {
+        width: 328px;
+        height: 248px;
+    }
+}

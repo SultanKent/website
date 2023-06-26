@@ -1,0 +1,135 @@
+.Tiers {
+    padding: 89px 76px;
+    overflow: hidden;
+}
+
+.Tiers_main>p {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 48px;
+    width: 313px;
+    height: 32px;
+    padding: 5px 45px;
+    white-space: nowrap;
+    margin-bottom: 75px;
+}
+
+.Tiers_main2 {
+    display: flex;
+    gap: 112px;
+}
+
+.Tier0>img {
+    position: relative;
+    bottom: 97px;
+}
+
+.Tier0>h2 {
+    position: relative;
+    bottom: 77px;
+    margin-bottom: 36px;
+}
+
+.Tier0>p {
+    width: 244px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.Tier1 {
+    width: 536px;
+    height: 536px;
+    background: #800BF5;
+    border-radius: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tier2 {
+    width: 448px;
+    height: 448px;
+    border-radius: 50%;
+    background: linear-gradient(160deg, rgba(20, 6, 61, 0.5) 30.67%, rgba(128, 11, 245, 0.5) 111.33%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tier0:hover{
+  transform: scale(1.1); /* Increase the scale by 10% on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Tiers {
+    width: 100%;
+    padding: 96px 40px;
+    }
+    .Tiers_main2 {
+        gap: 16px;
+    }
+    .Tier1 {
+        width: 336px;
+        height: 336px;
+        background: linear-gradient(160deg, rgba(20, 6, 61, 0.5) 30.67%, rgba(128, 11, 245, 0.5) 111.33%);
+    }
+    .Tier2 {
+        width: 335px;
+        height: 335px;
+    }
+    .Tier0>img {
+        width: 208px;
+        height: 229px;
+    }
+    .Tier0>h2 {
+        bottom: 117px;
+        margin-bottom: 0;
+    }
+    .Tier0>p {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Tiers {
+        padding: 80px 16px;
+    }
+    .Tiers_main2 {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .Tier0 {
+        background: linear-gradient(160deg, rgba(20, 6, 61, 0.5) 30.67%, rgba(128, 11, 245, 0.5) 111.33%);
+        width: 328px;
+        height: 141px;
+        border-radius: 16px;
+    }
+    .Tier1>img {
+        width: 62px;
+        height: 73px;
+        left: 120px;
+        bottom: 30px;
+    }
+    .Tier2>img {
+        width: 68px;
+        height: 59px;
+        left: 120px;
+        bottom: 30px;
+    }
+    .Tier0>h2 {
+        width: 207px;
+        font-size: 24px;
+        bottom: 45px;
+        left: -20px;
+    }
+    .Tier0>p {
+        position: relative;
+        font-size: 20px;
+        width: 244px;
+        bottom: 70px;
+        text-align: unset;
+    }
+}

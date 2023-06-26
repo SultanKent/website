@@ -1,0 +1,114 @@
+.Questions {
+    padding: 0px 76px 129px;
+    overflow: hidden;
+}
+
+.Questions>p {
+    border-radius: 48px;
+    border: 1px solid var(--white-20, rgba(255, 255, 255, 0.20));
+    width: 60px;
+    height: 30px;
+    margin-bottom: 56px;
+    padding: 4px 14px;
+}
+
+.Questions_main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Questions_main2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Questions1 {
+    display: flex;
+}
+
+.Question {
+    width: 1008px;
+    height: 104px;
+    border-radius: 56px;
+    background: linear-gradient(90deg, #00C2FF 0%, rgba(73, 203, 244, 0.00) 100%);
+    padding: 40px 48px;
+    color: black;
+}
+
+.Question:hover {
+    background: #49CBF4;
+    transition-duration: 3s;
+}
+
+.Questions1>div:nth-child(2) {
+    width: 104px;
+    height: 104px;
+    border-radius: 136px;
+    padding: 40px;
+    background: var(--blue, #49CBF4);
+}
+
+.Answers1 {
+    background: var(--blue, #49CBF4);
+    color: black;
+    width: 1008px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 56px;
+    overflow: hidden;
+    animation-name: slideDown;
+    animation-duration: 0.5s;    
+}
+
+@keyframes slideDown {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 398px;
+    }
+}
+    
+    .Answer2 {
+        height: 181px;
+        width: 530px;
+        font-size: 16px;
+    }
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Questions {
+        width: 100%;
+        padding: 0px 40px 96px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Questions {
+        padding: 56px 0px;
+    }
+    .Questions>p {
+        position: relative;
+        left: 16px;
+    }
+    .Questions_main {
+        gap: 2px;
+    }
+    .Questions1 {
+        height: 80px;
+    }
+    .Question {
+        width: 312px;
+        height: 48px;
+        border-radius: 0px 48px 48px 0px;
+    }
+    .Questions1>div:nth-child(2) {
+        width: 70px;
+        border-radius: 40px 0px 0px 40px;
+        height: 78px;
+        padding: 25px;
+    }
+}

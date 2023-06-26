@@ -1,0 +1,177 @@
+.Footer {
+    width: 1440px;
+    padding: 55px 60px;
+    height: 315px;
+    background: var(--dark, #14063D);
+    overflow: hidden;
+}
+
+.Footer_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footers {
+    display: flex;
+    gap: 197px;
+}
+
+.navbar {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.Footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 153px;
+}
+
+.Footer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 67px;
+}
+
+.logo {
+    width: 139px;
+    height: 66px;
+}
+
+.Footer3>h4 {
+    color: var(--blue, #49CBF4);
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.Footer3>div {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 56px;
+    width: 223px;
+}
+
+.navbar2 {
+    display: flex;
+    position: relative;
+    left: 326px;
+    bottom: 127px;
+}
+
+.navbar2>img:nth-child(1) {
+    width: 214px;
+    height: 56px;
+}
+
+.navbar2_1 {
+    display: flex;
+}
+
+.users {
+    bottom: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.users2 {
+    display: flex;
+    gap: 557px;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .Footer {
+        width: 100%;
+        padding: 55px 40px;
+        height: 537px;
+    }
+    .Footer_main {
+        flex-direction: column;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 16px 70px;
+        white-space: nowrap;
+    }
+    .Footer3 {
+        padding-top: 95px;
+        padding-left: 337px;
+        display: flex;
+        gap: 65px;
+    }
+    .navbar2 {
+        position: unset;
+    }
+    .navbar2>img:nth-child(1) {
+        width: 312px;
+    }
+    .users {
+        top: 60px;
+        bottom: 0px;
+    }
+    .users2 {
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .Footer {
+        padding: 0px 16px;
+        height: 720px;
+        width: 100%;
+    }
+    .Footer_main {
+        flex-direction: column;
+    }
+    .Footers {
+        flex-direction: column;
+        gap: 48px;
+    }
+    .navbar {
+        grid-template-columns: none;
+        gap: 16px 70px;
+        white-space: nowrap;
+        display: grid;
+    }
+    .Footer3 {
+        padding-top: 0px;
+        padding-left: 0px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .Footer3>h4 {
+        margin-bottom: 0px;
+    }
+    .navbar2 {
+        position: unset;
+        flex-direction: column;
+    }
+    .navbar2>img:nth-child(1) {
+        width: 330px;
+    }
+    .messengers>span>img {
+        width: 48px;
+        height: 48px;
+    }
+    .navbar2_1>img {
+        width: 136px;
+    }
+    .users {
+        top: 60px;
+        bottom: 0px;
+    }
+    .users2 {
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        bottom: 16px;
+    }
+}
