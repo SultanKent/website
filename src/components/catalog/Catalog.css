@@ -25,6 +25,12 @@ h2 {
     gap: 8px;
 }
 
+.Arrows>img:hover {
+    border-radius: 56px;
+    transition-duration: 0.8s;
+    background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
+}
+
 .Catalog_imgs {
     width: 1400px;
 }

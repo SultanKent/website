@@ -50,6 +50,13 @@
     left: 57px;
 }
 
+.Command_main3>img:hover {
+    border-radius: 56px;
+    border: none;
+    transition-duration: 0.8s;
+    background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
+}
+
 @media only screen and (max-width: 768px) {
     .Command {
         width: 100%;

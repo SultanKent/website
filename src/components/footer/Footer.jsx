@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
 
       <div className='navbar2'>
-        <img src={support}/>
+        <button className='support'>Служба поддержки</button>
         <div className="navbar2_1">
         {imgs.map((item, index) => (
           <div key={index} className="messengers">

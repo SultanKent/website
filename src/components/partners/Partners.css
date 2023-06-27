@@ -44,6 +44,7 @@
 
 @media only screen and (max-width: 420px) {
     .Partners {
+        height: unset;
         margin-bottom: 40px;
         padding: 0px 16px;
         background-size: 780px;
@@ -55,7 +56,6 @@
         gap: 16px;
     }
     .partner {
-        width: 160px;
         height: 88px;
     }
 }
