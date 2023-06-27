@@ -50,7 +50,7 @@
     left: 57px;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) {
     .Command {
         width: 100%;
         padding: 124px 40px;
@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 420px) {
     .Command {
         padding: 0px 16px;
     }

@@ -21,7 +21,7 @@
     border-radius: 56px;
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 480px) {
     .Menu_main {
         gap: 100px;
     }

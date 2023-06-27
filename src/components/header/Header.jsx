@@ -49,7 +49,7 @@ const Header = () => {
         </div>
 
         <img src={Ghost1} className="Ghost1" alt="Ghost 1" />
-        <img src={Ghost2} className="Ghost2" alt="Ghost 2" />
+        <img src={Ghost2} className='Ghost2' alt="Ghost 2" />
 
         <div className="Header_main3">
           <div className="Header_main3_1">
@@ -64,7 +64,7 @@ const Header = () => {
             <div className="Header_main3_2">
               <Swiper
                breakpoints={{
-                960: {
+                860: {
                   slidesPerView: 4,
                   spaceBetween: 8
                 },
@@ -73,9 +73,9 @@ const Header = () => {
                   spaceBetween: 6
                 },
                 360: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                   spaceBetween: 6
-                }
+                },
               }}
                 slidesPerView={4}
                 spaceBetween={10}

@@ -1,5 +1,5 @@
 .Footer {
-    width: 1440px;
+    width: 100%;
     padding: 55px 60px;
     height: 315px;
     background: var(--dark, #14063D);
@@ -83,7 +83,7 @@
 }
 
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) {
     .Footer {
         width: 100%;
         padding: 55px 40px;
@@ -122,10 +122,10 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 420px) {
     .Footer {
         padding: 0px 16px;
-        height: 720px;
+        height: 960px;
         width: 100%;
     }
     .Footer_main {

@@ -79,14 +79,14 @@
         font-size: 16px;
     }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) {
     .Questions {
         width: 100%;
         padding: 0px 40px 96px;
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 420px) {
     .Questions {
         padding: 56px 0px;
     }
@@ -106,7 +106,6 @@
         border-radius: 0px 48px 48px 0px;
     }
     .Questions1>div:nth-child(2) {
-        width: 70px;
         border-radius: 40px 0px 0px 40px;
         height: 78px;
         padding: 25px;

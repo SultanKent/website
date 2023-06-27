@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) {
     .Section {
         padding: 80px 40px;
         overflow: hidden;
@@ -16,9 +16,9 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 420px) {
     .Section {
-        padding: 56px 0px;
+        padding: 56px 16px;
         width: 100%;
     }
     .Section>img {

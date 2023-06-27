@@ -34,14 +34,14 @@ h2 {
     gap: 24px;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) {
     .Catalog {
         width: 100%;
         padding: 96px 40px;
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px){
+@media only screen and (max-width: 420px) {
     .Catalog {
         padding: 96px 16px;
     }
@@ -54,6 +54,9 @@ h2 {
     .Catalogs_main {
         width: 260px;
         gap: 56px;
+    }
+    .catalog_imgs {
+        width: 1000px;
     }
     .Catalogs_main .swiper, swiper-container {
         overflow: unset;

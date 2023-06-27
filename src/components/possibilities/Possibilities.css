@@ -68,7 +68,7 @@
     display: inherit;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 768px) {
     .Possibilities {
         padding: 121px 40px;
         width: 100%;
@@ -82,7 +82,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 420px) {
     .Possibilities {
         padding: 71px 16px;
         display: flex;
