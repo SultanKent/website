@@ -103,6 +103,8 @@
     .Question {
         width: 312px;
         height: 48px;
+        display: flex;
+        align-items: center;
         border-radius: 0px 48px 48px 0px;
     }
     .Questions1>div:nth-child(2) {

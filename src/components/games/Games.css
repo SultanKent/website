@@ -121,6 +121,9 @@
     .Games_main2 .swiper, swiper-container {
         overflow: unset;
     }
+    .Games_main2 .swiper-wrapper {
+        gap: 20px;
+    }
     .slider-image {
         width: 326px;
         height: 200px;
