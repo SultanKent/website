@@ -121,6 +121,28 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Games {
+        padding: 0px 24px;
+    }
+    .Games_main>h1 {
+        font-size: 24px;
+        width: 420px;
+    }
+    .Games_main2 {
+        width: 420px;
+        height: 439px;
+    }
+    .slider-image {
+        width: 420px;
+        height: 309px;
+    }
+    .slider_text {
+        top: 153px;
+        left: 10px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Games {
         padding: 0px 16px;

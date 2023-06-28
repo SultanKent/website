@@ -153,6 +153,30 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Header {
+        padding: 16px 24px;
+    }
+    .Ghost2 {
+        right: 0;
+    }
+    .Header_main2>img {
+        width: 800px;
+    }
+    .Header_main3_1>input {
+        width: 379px;
+        height: 48px;
+    }
+    .Header_main3_1>span {
+        width: 80px;
+        height: 80px;
+        padding: 32px 36px;
+    }
+    .Header_main3_2 {
+        width: 379px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Header {
         width: 100%;

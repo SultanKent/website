@@ -104,9 +104,21 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Possibilities {
+        padding: 0px 24px;
+    }
+    .Possibilities1 {
+        height: 451px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Possibilities {
         padding: 71px 16px;
+    }
+    .Possibilities1 {
+        height: 351px;
     }
     .Possibilities1>h1 {
         font-size: 80px;

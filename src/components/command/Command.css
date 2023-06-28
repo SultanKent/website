@@ -101,6 +101,22 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Command {
+        padding: 124px 24px;
+    }
+    .Command_main2 {
+        gap: 48px;
+    }
+    .main_text {
+        width: 441px;
+        font-size: 24px;
+    }
+    .Command_main3 {
+        left: 300px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Command {
         padding: 0px 16px;

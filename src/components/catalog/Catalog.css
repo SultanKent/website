@@ -65,6 +65,15 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Catalog {
+        padding: 96px 24px;
+    }
+    .Catalog_title>h2 {
+        font-size: 28px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Catalog {
         padding: 96px 16px;

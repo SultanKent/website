@@ -21,6 +21,10 @@ p, li {
     font-weight: 400;
 }
 
+li {
+    cursor: pointer;
+}
+
 .btn {
     cursor: pointer;
     height: 40px;

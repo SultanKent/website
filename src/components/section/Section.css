@@ -25,6 +25,16 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Section {
+        padding: 56px 24px;
+    }
+    .Section>img {
+        width: 90%;
+        height: 260px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Section {
         padding: 56px 16px;

@@ -111,13 +111,22 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Tiers {
+        padding: 80px 24px;
+    }
+    .Tiers_main2 {
+        flex-direction: column;
+        gap: 56px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Tiers {
         padding: 80px 16px;
     }
     .Tiers_main2 {
-        flex-direction: column;
-        gap: 32px;
+        gap: 36px;
     }
     .Tier0 {
         background: linear-gradient(160deg, rgba(20, 6, 61, 0.5) 30.67%, rgba(128, 11, 245, 0.5) 111.33%);

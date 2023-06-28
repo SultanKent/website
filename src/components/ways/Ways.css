@@ -258,6 +258,43 @@
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .Ways {
+        padding: 64px 24px;
+    }
+    .Ways_main2>h1 {
+        width: 368px;
+        font-size: 24px;
+    }
+    .span_way2 {
+        position: relative;
+        right: 100px;
+        left: 0px;
+        top: 0px;
+    }
+    .span_way3 {
+        position: relative;
+        right: 100px;
+        bottom: 0px;
+    }
+    .span_way4 {
+        position: relative;
+        left: -150px;
+        bottom: 0px;
+        top: 70px;
+    }
+    .last_words {
+        display: none;
+    }
+    .ways_last>h2 {
+        font-size: 24px;
+    }
+    .ways_last2 {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Ways {
         padding: 64px 16px;
@@ -282,14 +319,16 @@
     .ways_last>h2 {
         font-size: 20px;
     }
-    .ways_last2 {
-        flex-direction: column;
-        gap: 8px;
+    .span_way2 {
+        position: inherit;
+    }
+    .span_way3 {
+        position: inherit;
     }
     .span_way4 {
         position: relative;
         bottom: 0px;
         left: 0px;
-        top: 50px;
+        top: 40px;
     }
 }
