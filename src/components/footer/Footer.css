@@ -205,7 +205,8 @@
 @media only screen and (max-width: 420px) {
     .Footer {
         padding: 0px 16px;
-        max-height: 660px;
+        height: 730px;
+        max-height: 720px;
         width: 100%;
     }
     .Footer_main {
