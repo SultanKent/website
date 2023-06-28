@@ -110,6 +110,24 @@
 }
 
 
+@media only screen and (max-width: 1023px) {
+    .Header {
+        padding: 16px 41px 0px 60px;
+    }
+    .Header_main1 {
+        z-index: 1;
+    }
+    .Header_main3_1>input {
+        width: 822px;
+    }
+    .Header_main3_2 {
+        width: 822px;
+    }
+    .swiper_content {
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Header {
         width: 100%;
@@ -139,9 +157,6 @@
     .Header {
         width: 100%;
         padding: 16px 16px;
-    }
-    .Header_main {
-        gap: 0px;
     }
     .Header_main1>h1 {
         font-size: 40px;

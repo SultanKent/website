@@ -5,13 +5,29 @@ import telegram from '../../assets/telegram.png'
 import ok from '../../assets/ok.png'
 import yt from '../../assets/youtube.png'
 import vk from '../../assets/vk.png'
-import support from '../../assets/support.png'
 import Google_play from '../../assets/Footer.png'
 
 
 const Footer = () => {
   const navbar = ['О компании', 'Вакансии', 'Для партнеров', 'Размещение рекламы']
-  const imgs = [telegram, ok, yt, vk]
+  const imgs = [
+    {
+      imageSrc: telegram,
+      link: 'https://t.me/sleepcc'
+    },
+    {
+      imageSrc: ok,
+      link: 'ссылка_на_ok'
+    },
+    {
+      imageSrc: yt,
+      link: 'ссылка_на_yt'
+    },
+    {
+      imageSrc: vk,
+      link: 'https://vk.com/sultangamer'
+    }
+  ];
   return (
     <div className="Footer">
       <div className="Footer_main">
@@ -47,7 +63,9 @@ const Footer = () => {
         {imgs.map((item, index) => (
           <div key={index} className="messengers">
             <span>
-              <img src={item}/>
+            <a href={item.link} target="_blank">
+              <img src={item.imageSrc} alt={`Messenger ${index}`}/>
+            </a>
             </span>
           </div>
         ))}

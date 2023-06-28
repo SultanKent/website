@@ -40,10 +40,28 @@ h2 {
     gap: 24px;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Catalog {
+    padding: 96px 41px;
+    }
+    .Catalog_main {
+        width: 822px;
+    }
+    .Catalog_title {
+        width: 731px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Catalog {
         width: 100%;
         padding: 96px 40px;
+    }
+    .Catalog_main {
+        width: 100%;
+    }
+    .Catalog_title {
+        width: 100%;
     }
 }
 

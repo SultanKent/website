@@ -4,10 +4,19 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Section {
+        padding: 80px 41px;
+    }
+    .Section>img {
+        width: 822px;
+        height: 400px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Section {
         padding: 80px 40px;
-        overflow: hidden;
         width: 100%;
     }
     .Section>img {

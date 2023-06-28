@@ -64,15 +64,23 @@ const Header = () => {
             <div className="Header_main3_2">
               <Swiper
                breakpoints={{
-                860: {
+                1440: {
                   slidesPerView: 4,
+                  spaceBetween: 8
+                },
+                1023: {
+                  slidesPerView: 4,
+                  spaceBetween: 8
+                },
+                860: {
+                  slidesPerView: 2,
                   spaceBetween: 8
                 },
                 768: {
                   slidesPerView: 2,
                   spaceBetween: 6
                 },
-                521: {
+                480: {
                   slidesPerView: 2,
                   spaceBetween: 6
                 },
@@ -91,7 +99,7 @@ const Header = () => {
               >
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
-                    <div>
+                    <div className='swiper_content'>
                       <img src={image.src} alt={`Image ${index + 1}`} style={{ marginBottom: '24px' }} />
                       <h4 style={{ marginBottom: '8px' }}>{image.title}</h4>
                       <p>{image.description}</p>

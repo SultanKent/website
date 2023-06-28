@@ -62,6 +62,24 @@
   transition: transform 0.3s ease-in-out;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Tiers {
+        padding: 91px 41px;
+    }
+    .Tier0 {
+        width: 330px;
+        height: 330px;
+    }
+    .Tier0>img {
+        bottom: 67px;
+        width: 150px;
+    }
+    .Tier0>h2 {
+        margin-bottom: 0px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .Tiers {
     width: 100%;
@@ -126,7 +144,6 @@
         left: -20px;
     }
     .Tier0>p {
-        position: relative;
         font-size: 20px;
         width: 244px;
         bottom: 20px;

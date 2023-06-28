@@ -174,6 +174,36 @@
     padding: 20px 85px;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Ways {
+        padding: 60px 41px 0px 60px;
+    }
+    .Ways_main {
+        gap: 25px;
+    }
+    .Ways_spans .swiper {
+        pointer-events: none;
+        touch-action: none;
+      }
+    .Ways_spans>img:nth-child(1) {
+        display: none;
+    }
+    .Ways_spans>img:nth-child(2) {
+        display: none;
+    }
+    .Ways_spans>img:nth-child(3) {
+        display: none;
+    }
+    .spans>span {
+        width: 324px;
+        height: 324px;
+    }
+    .span_way3 {
+        right: 130px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .Ways {
         width: 100%;
@@ -186,12 +216,20 @@
     .Swiper {
         margin-bottom: 100px;
     }
+    .Ways_spans .swiper {
+        pointer-events: inherit;
+        touch-action: pan-y;
+    }
     .Ways_spans .swiper-wrapper {
         display: flex;
         gap: 95px;
     }
     .Ways_spans .swiper-slide {
         position: initial;
+    }
+    .spans>span {
+        width: 424px;
+        height: 424px;
     }
     .span_way2 {
         position: inherit;
@@ -201,15 +239,6 @@
     }
     .span_way4 {
         position: inherit;
-    }
-    .Ways_spans>img:nth-child(1) {
-        display: none;
-    }
-    .Ways_spans>img:nth-child(2) {
-        display: none;
-    }
-    .Ways_spans>img:nth-child(3) {
-        display: none;
     }
     .way1 {
         display: none;
@@ -233,16 +262,9 @@
     .Ways {
         padding: 64px 16px;
     }
-    .Ways_main {
-        flex-direction: column;
-        gap: 56px;
-    }
     .Ways_main2>h1 {
         width: 328px;
         font-size: 24px;
-    }
-    .Swiper {
-        margin-bottom: 100px;
     }
     .Ways_spans .swiper-wrapper {
         display: flex;
@@ -264,43 +286,10 @@
         flex-direction: column;
         gap: 8px;
     }
-    .Ways_spans .swiper-slide {
-        position: initial;
-    }
-    .span_way2 {
-        position: inherit;
-    }
-    .span_way3 {
-        position: inherit;
-    }
     .span_way4 {
         position: relative;
         bottom: 0px;
         left: 0px;
         top: 50px;
-    }
-    .Ways_spans>img:nth-child(1) {
-        display: none;
-    }
-    .Ways_spans>img:nth-child(2) {
-        display: none;
-    }
-    .Ways_spans>img:nth-child(3) {
-        display: none;
-    }
-    .way1 {
-        display: none;
-    }
-    .way2 {
-        display: none;
-    }
-    .way3 {
-        display: none;
-    }
-    .way4 {
-        display: none;
-    }
-    .last_words {
-        display: none;
     }
 }

@@ -81,6 +81,25 @@
     margin-bottom: 8px;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Games {
+        padding: 0px 41px 0px;
+    }
+    .Games_main>h1 {
+        font-size: 30px;
+    }
+    .Games_main2 {
+        width: 821px;
+    }
+    .slider-image {
+        width: 822px;
+        height: 400px;
+    }
+    .slider_text {
+        top: 220px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Games {
         width: 100%;
@@ -105,10 +124,6 @@
 @media only screen and (max-width: 420px) {
     .Games {
         padding: 0px 16px;
-    }
-    .Games_main {
-        flex-direction: column;
-        gap: 56px;
     }
     .Games_main>h1 {
         font-size: 24px;

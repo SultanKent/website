@@ -57,6 +57,25 @@
     background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
 }
 
+@media only screen and (max-width: 1023px) {
+    .Command {
+        padding: 124px 41px;
+    }
+    .Command_main2 {
+        gap: 48px;
+        flex-direction: column;
+     }
+     .Command_main2>div:nth-child(1) {
+        flex-direction: column;
+        gap: 16px;
+    }
+     .Command_main3 {
+        left: 600px;
+        bottom: 140px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .Command {
         width: 100%;
@@ -70,7 +89,7 @@
         flex-direction: column;
     }
     .Command_main2 {
-       gap: 48px;
+       gap: 115px;
        flex-direction: column;
     }
     .Command_main3 {
@@ -94,11 +113,9 @@
     }
     .Command_main2>div:nth-child(1) {
         gap: 21px;
-        flex-direction: column;
     }
     .Command_main2 {
         gap: 48px;
-        flex-direction: column;
      }
     .main_text {
         width: 280px;

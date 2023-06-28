@@ -25,12 +25,20 @@
     height: 120px;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Partners {
+        padding: 0px 41px;
+        background-position: center;
+        height: 400px;
+        background-size: 100%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .Partners {
         padding: 0px 40px;
         width: 100%;
         background-size: 890px;
-        background-position: center;
     }
     .Partners_main {
         grid-template-columns: repeat(3, 2fr);
@@ -48,11 +56,9 @@
         margin-bottom: 40px;
         padding: 0px 16px;
         background-size: 780px;
-        background-position: center;
     }
     .Partners_main {
         grid-template-columns: repeat(2, 3fr);
-        display: grid;
         gap: 16px;
     }
     .partner {

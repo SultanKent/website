@@ -127,6 +127,34 @@
     gap: 557px;
 }
 
+@media only screen and (max-width: 1023px) {
+    .Footer {
+        padding: 55px 41px;
+    }
+    .Footer_main {
+        gap: 30px;
+    }
+    .Footers {
+        gap: 67px;
+    }
+    .navbar {
+        white-space: nowrap;
+    }
+    .navbar2 {
+        left: 196px;
+    }
+    .users {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .users>p:nth-child(1) {
+        margin-right: 19px;
+    }
+    .users2 {
+        gap: 489px;
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     .Footer {
