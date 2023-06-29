@@ -133,6 +133,7 @@
     }
     .Footer_main {
         gap: 30px;
+        flex-direction: column;
     }
     .Footers {
         gap: 67px;
@@ -142,6 +143,7 @@
     }
     .navbar2 {
         left: 196px;
+        bottom: 214px;
     }
     .users {
         white-space: nowrap;
@@ -197,16 +199,17 @@
 
 @media only screen and (max-width: 580px) {
     .Footer {
+        height: 470px;
         padding: 0px 24px;
-        max-height: 450px;
+        max-height: 550px;
     }
 }
 
 @media only screen and (max-width: 420px) {
     .Footer {
         padding: 0px 16px;
-        height: 730px;
-        max-height: 720px;
+        max-height: unset;
+        height: 720px;
         width: 100%;
     }
     .Footer_main {
@@ -248,5 +251,11 @@
         gap: 0px;
         position: relative;
         bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .Footer {
+        height: 760px;
     }
 }
