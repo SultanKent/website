@@ -314,7 +314,7 @@
     .spans>span>p {
         font-size: 18px;
         width: 272px;
-        height: 66px;
+        height: unset;
     }
     .ways_last>h2 {
         font-size: 20px;

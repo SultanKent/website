@@ -71,10 +71,11 @@
 .Games_titles {
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .Games_titles>div:nth-child(1) {
-    width: 215px;
+    width: 190px;
 }
 
 .Games_titles>div>h3 {
@@ -131,7 +132,7 @@
     }
     .Games_main2 {
         width: 420px;
-        height: 439px;
+        height: 339px;
     }
     .slider-image {
         width: 420px;
@@ -141,6 +142,9 @@
         top: 153px;
         left: 10px;
     }
+   .slider_text>h2 {
+        font-size: 24px;
+   }
 }
 
 @media only screen and (max-width: 420px) {
@@ -170,7 +174,7 @@
         left: 0px;
     }
     .Games_main2 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
-        top: 440px;
+        top: 340px;
     }
     .Games_titles {
         align-items: center;

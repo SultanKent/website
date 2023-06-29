@@ -229,6 +229,9 @@
         position: unset;
         flex-direction: column;
     }
+    .support {
+        width: 360px;
+    }
     .messengers>span>img {
         width: 48px;
         height: 48px;
