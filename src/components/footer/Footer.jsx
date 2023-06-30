@@ -69,7 +69,7 @@ const Footer = () => {
             </span>
           </div>
         ))}
-        <img src={Google_play}/>
+        <img src={Google_play} className="Google"/>
         </div>
         </div>
         

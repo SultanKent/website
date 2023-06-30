@@ -29,7 +29,7 @@ const Possibilities = () => {
         1440: {
             slidesPerView: 3
         },
-        768: {
+        900: {
             slidesPerView: 3
         }
     }}

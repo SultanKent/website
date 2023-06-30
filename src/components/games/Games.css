@@ -105,6 +105,7 @@
     .Games {
         width: 100%;
         padding: 0px 40px 0px;
+        background: linear-gradient(20deg, #14063D 40.67%, #800BF5 120.33%);
     }
     .Games_main {
         flex-direction: column;

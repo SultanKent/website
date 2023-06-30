@@ -1,7 +1,8 @@
 .Ways {
-    background: linear-gradient(138deg, #14063D 40.67%, #800BF5 140.33%);
+    background: linear-gradient(143deg, #14063D 40.67%, #800BF5 140.33%);
     padding: 60px 60px 0px 60px;
     overflow: hidden;
+    border: #800BF5;
 }
 
 .Ways_main {
@@ -131,6 +132,10 @@
     left: 156px;
 }
 
+.way5, .way6 {
+    display: none;
+}
+
 .last_words {
     bottom: 250px;
     position: relative;
@@ -207,6 +212,7 @@
 @media only screen and (max-width: 768px) {
     .Ways {
         width: 100%;
+        background: linear-gradient(160deg, #14063D 40.67%, #800BF5 120.33%);
         padding: 78px 40px 64px;
     }
     .Ways_main {
@@ -222,23 +228,32 @@
     }
     .Ways_spans .swiper-wrapper {
         display: flex;
-        gap: 95px;
+        gap: 48px;
     }
     .Ways_spans .swiper-slide {
         position: initial;
     }
+    .spans {
+        height: 344px;
+    }
     .spans>span {
-        width: 424px;
-        height: 424px;
+        width: 336px;
+        height: 336px;
+    }
+    #spans {
+        width: 336px;
     }
     .span_way2 {
-        position: inherit;
+        position: inherit
     }
     .span_way3 {
         position: inherit;
     }
     .span_way4 {
-        position: inherit;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        top: 50px;
     }
     .way1 {
         display: none;
@@ -252,9 +267,25 @@
     .way4 {
         display: none;
     }
+    .way5 {
+        display: inherit;
+        position: relative;
+        left: 304px;
+        bottom: 20px;
+    }
+    .way6 {
+        z-index: 3;
+        display: inherit;
+        position: absolute;
+        right: -20px;
+        bottom: 350px;
+    }
     .ways_last {
         display: block;
         flex-direction: column;
+    }
+    .last_words {
+        display: none;
     }
 }
 
@@ -266,25 +297,24 @@
         width: 368px;
         font-size: 24px;
     }
+    .span_way1 {
+        position: relative;
+        left: 30px;
+    }
     .span_way2 {
         position: relative;
-        right: 100px;
+        right: 120px;
         left: 0px;
         top: 0px;
     }
     .span_way3 {
         position: relative;
-        right: 100px;
+        right: 30px;
         bottom: 0px;
     }
     .span_way4 {
-        position: relative;
-        left: -150px;
-        bottom: 0px;
-        top: 70px;
-    }
-    .last_words {
-        display: none;
+        left: -50px;
+        top: 50px;
     }
     .ways_last>h2 {
         font-size: 24px;
@@ -292,6 +322,9 @@
     .ways_last2 {
         flex-direction: column;
         gap: 8px;
+    }
+    .way5, .way6 {
+        display: none;
     }
 }
 

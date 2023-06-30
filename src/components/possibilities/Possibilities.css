@@ -93,6 +93,9 @@
         width: 100%;
         display: flex;
     }
+    .Possibilities1 {
+        height: 451px;
+    }
     .Possibilities_main2 {
         flex-direction: column;
     }
@@ -107,9 +110,6 @@
 @media only screen and (max-width: 580px) {
     .Possibilities {
         padding: 0px 24px;
-    }
-    .Possibilities1 {
-        height: 451px;
     }
 }
 

@@ -4,6 +4,8 @@ import Ways1 from '../../assets/Ways1.png'
 import Ways2 from '../../assets/Ways2.png'
 import Ways3 from '../../assets/Ways3.png'
 import Ways4 from '../../assets/Ways4.png'
+import Ways5 from '../../assets/Ways5.png'
+import Ways6 from '../../assets/Ways6.png'
 import android from '../../assets/android.png'
 import space1 from '../../assets/space1.png'
 import space2 from '../../assets/space2.png'
@@ -39,6 +41,9 @@ const Ways = () => {
                 768: {
                   slidesPerView: 2,
                 },
+                580: {
+                  slidesPerView: 2,
+                },
                 360: {
                   slidesPerView: 1,
                 }
@@ -48,7 +53,7 @@ const Ways = () => {
                 className='Swiper'
               >
               {ways.map((way, index) => (
-                <SwiperSlide key={index} className="spans">
+                <SwiperSlide id='spans' key={index} className="spans">
                 <span className={index === 0 ? 'span_way1' : (index === 1 ? 'span_way2' : (index === 2 ? 'span_way3' : 'span_way4'))}>
                   <p>{way.p}</p>
                   <h1>{way.h1}</h1>
@@ -60,6 +65,8 @@ const Ways = () => {
                 </div>
                 </SwiperSlide>
               ))}
+              <img src={Ways5} className="way5"/>
+              <img src={Ways6} className="way6"/>
               </Swiper>
               <div className="ways_last">
                 <h2>Где хотите начать играть?</h2>

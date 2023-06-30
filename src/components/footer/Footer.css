@@ -61,6 +61,12 @@
     bottom: 127px;
 }
 
+.Google {
+    width: 152px;
+    height: 56px;
+    background: transparent;
+}
+
 .navbar2>img:nth-child(1) {
     width: 214px;
     height: 56px;
@@ -138,9 +144,6 @@
     .Footers {
         gap: 67px;
     }
-    .navbar {
-        white-space: nowrap;
-    }
     .navbar2 {
         left: 196px;
         bottom: 214px;
@@ -171,7 +174,7 @@
         display: grid;
         grid-template-columns: repeat(2, 2fr);
         gap: 16px 70px;
-        white-space: nowrap;
+        
     }
     .Footer3 {
         display: flex;
