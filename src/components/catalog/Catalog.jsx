@@ -63,11 +63,13 @@ const Catalog = () => {
                   src={sliderArrow1}
                   className="sliderArrow1"
                   onClick={() => navigatePrev(index)}
+                  alt="Arrow1"
                 />
                 <img
                   src={sliderArrow2}
                   className="sliderArrow2"
                   onClick={() => navigateNext(index)}
+                  alt="Arrow2"
                 />
               </div>
             </div>

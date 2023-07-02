@@ -37,19 +37,20 @@ const Command = () => {
                 <div className="Command_main2">
 
                 <div>
-                <img src={item.quote} style={{width: '32px', height: '32px'}}/>
+                <img src={item.quote} style={{width: '32px', height: '32px'}}
+                alt="quote"/>
                 <h2 className="main_text">{item.text}</h2>
                 </div>
 
                 <div>
                     <h3 style={{whiteSpace: 'nowrap'}}>{item.name}</h3>
-                    <img src={item.img} className="art"/>
+                    <img src={item.img} className="art" alt='Art'/>
                 </div>
 
                 </div>
                 <div className="Command_main3">
-                <img src={arrow1} className="sliderArrow1"/>
-                <img src={arrow2} className="sliderArrow2"/>
+                <img src={arrow1} className="sliderArrow1" alt='Arrow1'/>
+                <img src={arrow2} className="sliderArrow2" alt='Arrow2'/>
                 </div>
             </SwiperSlide>
             )

@@ -15,7 +15,7 @@ const Tiers = () => {
             <div className="Tiers_main2">
             {Tiers.map((tier, index) => (
                 <div key={index} className={`Tier0 ${index === 0 ? 'Tier1' : 'Tier2'}`}>
-                  <img src={tier.img}/>
+                  <img src={tier.img} alt="tier.img"/>
                   <h2>{tier.title}</h2>
                   <p>{tier.description}</p>
                 </div>

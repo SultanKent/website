@@ -97,7 +97,7 @@ const Games = () => {
                 <h3>{game.title}</h3>
                 <p>{game.description}</p>
               </div>
-              <div><img src={game.img} alt={game.title} /></div>
+              <div><img src={game.img} alt={game.title}/></div>
             </div>
           ))
         )}

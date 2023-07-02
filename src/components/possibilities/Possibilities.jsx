@@ -51,8 +51,9 @@ const Possibilities = () => {
                     </div>
                 </div>
                 <div className="Possibilities2">
-                    <img src={item.icon} className={index === 0 || index === 1 ? 'icon1' : 'icon2'}/>
-                    <img src={item.img}/>
+                    <img src={item.icon} className={index === 0 || index === 1 ? 'icon1' : 'icon2'}
+                    alt="icon"/>
+                    <img src={item.img} alt="item.img"/>
                 </div>
                 
             </div>

@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className='Footers'>
         <div className="Footer1">
-        <img src={logo} className="logo"/>
+        <img src={logo} className="logo" alt='logo'/>
         </div>
 
         <div className="Footer2">
@@ -69,7 +69,7 @@ const Footer = () => {
             </span>
           </div>
         ))}
-        <img src={Google_play} className="Google"/>
+        <img src={Google_play} className="Google" alt='google'/>
         </div>
         </div>
         

@@ -16,7 +16,7 @@ const Partners = () => {
         <div className="Partners_main">
             {partners.map((item, index) => (
                 <div key={index} className="partner">
-                <img src={item}/>
+                <img src={item} alt="partners.item"/>
                 </div>
             ))}
         </div>

@@ -10,7 +10,7 @@ const Menu = () => {
             <li>о компании</li>
             <li>вакансии</li>
         </ul>   
-        <img src={Logo}/>
+        <img src={Logo} alt="Logo"/>
         <button className='btn menu-btn'>Начать играть</button>
     </div>
     </div>

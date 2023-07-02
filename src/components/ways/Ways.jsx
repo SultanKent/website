@@ -30,9 +30,9 @@ const Ways = () => {
         <div className="Ways_main2">
             <h1>Partystation — новый способ развлечений для любой компании</h1>
             <div className="Ways_spans">
-              <img src={space1}/>
-              <img src={space2}/>
-              <img src={ways_blur}/>
+              <img src={space1} alt="space1"/>
+              <img src={space2} alt="space2"/>
+              <img src={ways_blur} alt="ways_blur"/>
               <Swiper
                breakpoints={{
                 960: {
@@ -58,15 +58,15 @@ const Ways = () => {
                   <p>{way.p}</p>
                   <h1>{way.h1}</h1>
                 </span>
-                <img src={way.img} className={index === 0 ? 'way1' : (index === 1 ? 'way2' : (index === 2 ? 'way3' : 'way4'))}/>
+                <img src={way.img} className={index === 0 ? 'way1' : (index === 1 ? 'way2' : (index === 2 ? 'way3' : 'way4'))} alt="ways"/>
                 <div className='last_words'>
-                <img src={way.img0}/>
+                <img src={way.img0} alt="way.img0"/>
                 <p style={{width: '132px', height: '48px'}}>{way.p2}</p>
                 </div>
                 </SwiperSlide>
               ))}
-              <img src={Ways5} className="way5"/>
-              <img src={Ways6} className="way6"/>
+              <img src={Ways5} className="way5" alt='way5'/>
+              <img src={Ways6} className="way6" alt='way6'/>
               </Swiper>
               <div className="ways_last">
                 <h2>Где хотите начать играть?</h2>
@@ -78,7 +78,7 @@ const Ways = () => {
                   </span>
                   <h3>ИЛИ</h3>
                   <span><div>
-                  <img src={Android}/><p>Android TV</p>
+                  <img src={Android} alt="Android"/><p>Android TV</p>
                   </div></span>
                 </div>
               </div>
