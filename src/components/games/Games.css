@@ -2,6 +2,9 @@
     background: linear-gradient(20deg, #14063D 40.67%, #800BF5 140.33%);
     padding: 0px 76px 0px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Games_main {
@@ -82,7 +85,7 @@
     margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1223px) {
     .Games {
         padding: 0px 41px 0px;
     }
@@ -106,6 +109,7 @@
         width: 100%;
         padding: 0px 40px 0px;
         background: linear-gradient(20deg, #14063D 40.67%, #800BF5 120.33%);
+        align-items: inherit;
     }
     .Games_main {
         flex-direction: column;

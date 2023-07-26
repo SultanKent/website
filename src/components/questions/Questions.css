@@ -14,6 +14,7 @@
 
 .Questions_main {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 16px;
 }
@@ -79,9 +80,12 @@
         font-size: 16px;
     }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1223px) {
     .Questions {
         padding: 0px 41px 96px;
+    }
+    .Questions_main {
+        align-items: inherit;
     }
 }
 

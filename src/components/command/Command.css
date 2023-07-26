@@ -2,6 +2,9 @@
     padding: 57px 60px;
     background: linear-gradient(-50deg, #14063D 73.67%, #49CBF4 130%);
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Command_main {
@@ -57,7 +60,7 @@
     background: linear-gradient(90deg, #800BF5 26.67%, #25C6F9 97.33%);
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1223px) {
     .Command {
         padding: 124px 41px;
     }

@@ -68,7 +68,7 @@ const Header = () => {
                   slidesPerView: 4,
                   spaceBetween: 8
                 },
-                1023: {
+                1224: {
                   slidesPerView: 4,
                   spaceBetween: 8
                 },

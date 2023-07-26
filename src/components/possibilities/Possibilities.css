@@ -68,7 +68,7 @@
     display: inherit;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1224px) {
     .Possibilities {
         padding: 63px 41px;
     }
@@ -85,6 +85,18 @@
         width: 448px;
         height: 551px;
     }
+    .Possibilities_main2 {
+        flex-direction: column;
+    }
+    .Possibilities2>img:nth-child(1) {
+        display: none;
+    }
+    .Possibilities_words {
+        width: 468px;
+    }
+    .Possibilities .swiper-wrapper {
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -95,15 +107,6 @@
     }
     .Possibilities1 {
         height: 451px;
-    }
-    .Possibilities_main2 {
-        flex-direction: column;
-    }
-    .Possibilities2>img:nth-child(1) {
-        display: none;
-    }
-    .Possibilities_words {
-        width: 468px;
     }
 }
 

@@ -16,6 +16,7 @@
 .Tiers_main2 {
     display: flex;
     gap: 112px;
+    justify-content: center;
 }
 
 .Tier0>img {
@@ -62,7 +63,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1223px) {
     .Tiers {
         padding: 91px 41px;
     }
