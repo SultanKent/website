@@ -14,27 +14,15 @@ import Tiers from './components/tiers/Tiers';
 import Ways from './components/ways/Ways';
 
 function App() {
-  const [imagesLoaded, setImagesLoaded] = useState(false);
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    const handleImagesLoaded = () => {
-      setImagesLoaded(true);
-    };
-
-    const images = document.querySelectorAll('img');
-    images.forEach((image) => {
-      image.addEventListener('load', handleImagesLoaded);
-    });
-
-    return () => {
-      images.forEach((image) => {
-        image.removeEventListener('load', handleImagesLoaded);
-      });
-    };
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
   }, []);
   return (
     <div className="App">
-      {!imagesLoaded ? <LoadingScreen /> : (
+      {loading ? <LoadingScreen /> : (
         <div className="main-content">
           <Header/>
           <Section/>
