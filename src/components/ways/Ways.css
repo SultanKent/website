@@ -137,9 +137,9 @@
 }
 
 .last_words {
+    display: none;
     bottom: 250px;
     position: relative;
-    display: flex;
     gap: 16px;
 }
 
