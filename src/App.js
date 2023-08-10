@@ -15,32 +15,11 @@ import Ways from './components/ways/Ways';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
-    const images = document.querySelectorAll('img');
-    const totalImages = images.length;
-    let loadedImages = 0;
-
-    const handleImageLoad = () => {
-      loadedImages++;
-      if (loadedImages === totalImages) {
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 1000); // Задержка в 1 секунду
-      }
-    };
-
-    images.forEach((image) => {
-      image.addEventListener('load', handleImageLoad);
-    });
-
-    return () => {
-      images.forEach((image) => {
-        image.removeEventListener('load', handleImageLoad);
-      });
-    };
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4500);
   }, []);
-
   return (
     <div className="App">
       {isLoading ? <LoadingScreen /> : (
@@ -62,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
