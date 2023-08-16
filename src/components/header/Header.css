@@ -120,9 +120,6 @@
     .Header_main1 {
         z-index: 1;
     }
-    .Header_main3 {
-        align-items: inherit;
-    }
     .Header_main3_1>input {
         width: 822px;
     }
@@ -146,6 +143,9 @@
         left: -130px;
         top: -1px;
         height: 439px;
+    }
+    .Header_main3 {
+        align-items: inherit;
     }
     .Header_main3_1>input {
         width: 591px;

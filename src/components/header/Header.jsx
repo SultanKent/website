@@ -35,6 +35,19 @@ const Header = () => {
       setError(false);
     }
   };
+  const [scrollY, setScrollY] = useState(0);
+
+  const handleScroll = () => {
+  setScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+  window.addEventListener('scroll', handleScroll);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+  }, []);
+
   return (
     <div className="Header">
       <Menu />
@@ -44,12 +57,12 @@ const Header = () => {
           <p>Каждую пятницу новая порция.<br /> Подписка за 399 ₽ в месяц</p>
         </div>
 
-        <div className="Header_main2">
+        <div className="Header_main2" style={{ transform: `translateY(${scrollY * 0.5}px)` }}>
           <img src={Header_main} alt="Header Main" />
         </div>
 
-        <img src={Ghost1} className="Ghost1" alt="Ghost 1" />
-        <img src={Ghost2} className='Ghost2' alt="Ghost 2" />
+        <img src={Ghost1} className="Ghost1 animated-image" alt="Ghost 1" />
+        <img src={Ghost2} className='Ghost2 animated-image' alt="Ghost 2" />
 
         <div className="Header_main3">
           <div className="Header_main3_1">

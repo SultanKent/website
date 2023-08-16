@@ -30,8 +30,8 @@ const Ways = () => {
         <div className="Ways_main2">
             <h1>Partystation — новый способ развлечений для любой компании</h1>
             <div className="Ways_spans">
-              <img src={space1} alt="space1"/>
-              <img src={space2} alt="space2"/>
+              <img src={space1} alt="space1" className='animated-image'/>
+              <img src={space2} alt="space2" className='animated-image'/>
               <img src={ways_blur} alt="ways_blur"/>
               <Swiper
                breakpoints={{
